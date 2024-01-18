@@ -13,9 +13,7 @@ const Stack = createStackNavigator();
 // Définition du composant AppNavigator
 const AppNavigator = () => {
   return (
-    // Conteneur du gestionnaire de navigation
-    <Stack.Navigator initialRouteName="Home">  // Définition de l'écran initial
-      {/* Définition des écrans et de leurs composants */}
+    <Stack.Navigator initialRouteName="Home">
       <Stack.Screen name="Home" component={HomeScreen} />
       <Stack.Screen name="QuizSelection" component={QuizSelectionScreen} />
       <Stack.Screen name="Quiz" component={QuizScreen} />
