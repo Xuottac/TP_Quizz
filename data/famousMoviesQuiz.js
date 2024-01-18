@@ -75,23 +75,23 @@ const famousMoviesQuiz = {
     feedback: {
       perfect: {
         comment: "Vous êtes le Spielberg des quiz sur les films ! 🎬",
-        image: "https://media.tenor.com/images/your-perfect-score-gif"
+        image: "https://i.gifer.com/V2Y0.gif"
       },
       excellent: {
         comment: "Vous êtes prêt pour les Oscars ! 🏆",
-        image: "https://media.tenor.com/images/excellent-score-gif"
+        image: "https://lh3.googleusercontent.com/proxy/HlQ0m8iW0MXAdr2rfkJ3GvgMNOTX5UvVAI44nZkXsV4PDFdeO_uOsIKBZQwrFuH3Cj-nnXHTSqwF0fdI6l5kRQ4K9puH5baZ84ppxhY"
       },
       veryGood: {
         comment: "Vous êtes un véritable cinéphile ! 🍿",
-        image: "https://media.tenor.com/images/very-good-score-gif"
+        image: "https://media.giphy.com/media/DKaU7RVYQPU52/giphy.gif"
       },
       good: {
         comment: "Pas mal, mais il y a encore des classiques à voir ! 🎥",
-        image: "https://media.tenor.com/images/good-score-gif"
+        image: "https://i.pinimg.com/originals/97/83/30/9783303de86b9e417fa4c609dd3631e9.gif"
       },
       average: {
         comment: "Il est temps de mettre à jour votre filmothèque ! 📼",
-        image: "https://media.tenor.com/images/average-score-gif"
+        image: "https://www.laboiteverte.fr/wp-content/uploads/2011/09/01-Dr.-Strangelove-3.gif"
       },
       poor: {
         comment: "Vous avez besoin d'un marathon de films ! 📺",

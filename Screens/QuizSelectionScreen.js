@@ -2,11 +2,13 @@
 import React, { useState } from 'react';
 import { View, Text, FlatList, TouchableOpacity, StyleSheet } from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons'; // Importation de la bibliothèque d'icônes
+import { Ionicons } from '@expo/vector-icons';
 
 // Importation des fichiers JSON contenant les données des quiz
 import michaelJacksonQuiz from '../data/michaelJacksonQuiz';
 import famousMoviesQuiz from '../data/famousMoviesQuiz';
 import famousSongsQuiz from '../data/famousSongsQuiz';
+import videoGamesQuiz from '../data/videoGameQuiz';
 
 // Définition du composant QuizSelectionScreen
 const QuizSelectionScreen = ({ navigation }) => {
@@ -15,6 +17,7 @@ const QuizSelectionScreen = ({ navigation }) => {
     { id: '1', title: 'Quiz sur Michael Jackson', data: michaelJacksonQuiz, icon: 'music-note' },
     { id: '2', title: 'Quiz sur les films célèbres', data: famousMoviesQuiz, icon: 'movie' },
     { id: '3', title: 'Quiz sur les chansons célèbres', data: famousSongsQuiz, icon: 'library-music' },
+    { id: '4', title: 'Quiz sur les jeux vidéos', data: videoGamesQuiz, icon: 'videogame-asset' },
   ]);
 
   // Fonction pour gérer la sélection d'un quiz
